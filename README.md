@@ -95,7 +95,9 @@ sudo apt-get install certbot -y
 ```bash
 sudo certbot certonly -d xxx.kro.kr --manual --preferred-challenges dns
 ```
-이메일을 입력하고 약관에 동의합니다. 인증 과정에서 제공되는 _acme-challenge 값을 도메인 관리자에서 설정합니다.
+이메일을 입력하고 약관에 동의합니다. 그러면 인증 과정에서 _acme-challenge 값이 제공됩니다. 이때 터미널을 잠시 두고, "내 도메인" 사이트에서 _acme-challenge 값과 함께 제공된 DNS TXT 레코드를 입력해 주세요. 이 과정이 완료되어야 정상적으로 인증서가 발급됩니다.
+
+"내 도메인" 사이트에서 TXT 값을 입력하고 수정 버튼을 누른 뒤, 약 1~2분 정도 기다렸다가 터미널에서 다음 단계를 진행하면 성공적으로 인증서를 받을 수 있습니다.
 
 ![다운로드 (1)](https://github.com/hyKwon13/Apply-https-protocol-to-Naver-Cloud-Platform/assets/117807382/a361fe6d-77dc-434b-a5f0-0d4150ba1fd8)
 ![다운로드 (2)](https://github.com/hyKwon13/Apply-https-protocol-to-Naver-Cloud-Platform/assets/117807382/320f28c7-ef9b-4db6-84f2-176858966b48)
