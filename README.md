@@ -1,6 +1,7 @@
 # Apply HTTPS Protocol to Naver Cloud Platform
 
-이 가이드는 네이버 클라우드 플랫폼에서 Uvicorn으로 배포 중인 웹 사이트에 도메인을 연결하고, SSL 인증서를 적용하여 HTTPS를 설정하는 방법을 다룹니다. 도메인, SSL 인증서, Public IP 모두 무료로 발급받을 수 있으며, 초기 3개월 동안 Naver Cloud Platform의 크레딧을 통해 Public IP도 무료로 사용할 수 있습니다. 단, 3개월 이후에는 과금됩니다.
+이 가이드는 네이버 클라우드 플랫폼에서 Uvicorn으로 배포 중인 웹 사이트에 도메인을 연결하고, SSL 인증서를 적용하여 HTTPS를 설정하는 방법을 다룹니다. 도메인과 SSL 인증서는 무료로 발급받을 수 있으며, Public IP도 아이디 생성 후 초기 3개월 동안은 Naver Cloud Platform의 크레딧을 통해 무료로 사용할 수 있습니다. 단, 3개월 이후부터는 Public IP에 대한 요금이 과금됩니다.
+
 
 ## 도메인 연결
 
